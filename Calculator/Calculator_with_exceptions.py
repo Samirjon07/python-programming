@@ -1,6 +1,6 @@
 import Calculator.Division as D
 import Calculator.Multiplication as M
-import Subtraction as S
+import Calculator.Subtraction as S
 import Calculator.Addition as A
 import Calculator.Power as P
 import Calculator.Factorial as F
