@@ -1,9 +1,9 @@
-import Calculator.Division as D
-import Calculator.Multiplication as M
-import Calculator.Subtraction as S
-import Calculator.Addition as A
-import Calculator.Power as P
-import Calculator.Factorial as F
+import Division as D
+import Multiplication as M
+import Subtraction as S
+import Addition as A
+import Power as P
+import Factorial as F
 
 
 

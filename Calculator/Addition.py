@@ -1,8 +1,8 @@
 def addition():
     try:
-        a = int(input("Enter value of a:"))
-        b = int(input("Enter value of b:"))
+        a = int(input("Enter value of a: "))
+        b = int(input("Enter value of b: "))
         c = a+b
-        print("The answer of addition :", c)
+        print("The answer of addition : ", c)
     except ValueError:
         print("Entered value is wrong")
