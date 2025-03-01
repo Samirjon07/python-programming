@@ -1,3 +1,7 @@
+'''
+Print multiplication table of a given number
+'''
+
 print("Enter the number: ")
 num=int(input())
 
