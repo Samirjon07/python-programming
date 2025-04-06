@@ -1,7 +1,15 @@
-f = open(r"C:\Users\User\OneDrive\Рабочий стол\hello.txt", "w")
-f.write("SIUT\n")
-f=open(r"C:\Users\User\OneDrive\Рабочий стол\hello.txt","r")
-f.read()
-f = open(r"C:\Users\User\OneDrive\Рабочий стол\hello.txt", "a")
-f.write("Samirjon is 2nd Semester computer science student")
+f=open("a.txt","w")
+f.write("Hello World")
+f.close()
 
+f=open("a.txt","r")
+print(f.read(5))
+f.close()
+
+f=open("a.txt","a")
+f.write("\nSamirjon Tursunov")
+f.close()
+
+f=open("a.txt","r")
+print(f.read())
+f.close()
