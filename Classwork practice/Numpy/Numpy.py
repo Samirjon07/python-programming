@@ -5,6 +5,7 @@ import numpy as np
 
 
 x=np.array([10,11,12,13,14])
+print(type(x))
 print(x)
 
 

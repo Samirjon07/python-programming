@@ -59,3 +59,6 @@ y=np.array([[0,1,2,3],[4,5,6,7]])
 z=np.hstack((x,y))
 print("\nMerging two arrays:\n",z)
 
+
+z=np.column_stack((x,y))
+print("\n",z)
