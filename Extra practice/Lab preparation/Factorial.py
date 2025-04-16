@@ -1,7 +1,6 @@
 num = int(input("Enter a number: "))
 
 
-
 def recursion(num):
     if (num==1):
         return 1
